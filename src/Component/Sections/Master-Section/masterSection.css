@@ -127,3 +127,48 @@
     font-size: 15px;
     color: rgb(85, 84, 84);
 }
+
+@media only screen and (max-width: 1208px) {
+    .masters-component-text h1 {
+        font-family: 'Ubuntu', sans-serif !important;
+        font-size: 40px;
+    }
+
+    .masters-component-text p {
+        color: rgb(85, 84, 84);
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1108px) {
+    .masters-component-text h1 {
+        font-family: 'Ubuntu', sans-serif !important;
+        font-size: 38px;
+    }
+
+    .masters-component-text p {
+        color: rgb(85, 84, 84);
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .masters-component-text h1 {
+        font-family: 'Ubuntu', sans-serif !important;
+        font-size: 30px;
+    }
+
+    .masters-component-text p {
+        color: rgb(85, 84, 84);
+        font-size: 12px;
+    }
+
+    .arrow-container div {
+
+        padding: 5px 5px;
+        border-radius: 50%;
+        font-size: 2px !important;
+        color: rgb(85, 84, 84);
+
+    }
+}

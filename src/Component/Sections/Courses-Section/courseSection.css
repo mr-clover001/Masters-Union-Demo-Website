@@ -49,8 +49,8 @@
     background-color: #fff;
     margin: 25px 70px;
     border-radius: 10px;
-    width: 935px;
-    height: 440px;
+    width: auto;
+    height: auto;
     padding: 35px 35px;
     box-shadow: 0 0 15px rgba(14, 14, 14, 0.112);
     transition: transform 0.5s ease-in-out;
@@ -59,4 +59,112 @@
 
 .coursesSection-details.show {
     transform: translateX(0);
+}
+
+
+/* Responsive styles */
+
+@media only screen and (max-width: 1479px) {
+    .courseSection-heading {
+        font-size: 42px;
+
+    }
+
+    .courseSection-topics-name {
+
+        font-size: 13px;
+    }
+
+    .coursesSection-details {
+
+        margin: 25px 50px;
+        /* width: 90%; */
+    }
+}
+
+@media only screen and (max-width: 1379px) {
+    .courseSection-heading {
+        font-size: 40px;
+
+    }
+
+    .courseSection-topics-name {
+
+        font-size: 13px;
+    }
+
+    .coursesSection-details {
+
+        margin: 25px 50px;
+        /* width: 90%; */
+    }
+}
+
+@media only screen and (max-width: 1359px) {
+    .courseSection-heading {
+        font-size: 40px;
+
+    }
+
+    .courseSection-topics-name {
+
+        font-size: 11px;
+    }
+
+    .coursesSection-details {
+
+        margin: 25px 60px;
+        /* width: 575px; */
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .courseSection-topics-name {
+
+        font-size: 11px;
+    }
+
+
+
+    .coursesSection-details {
+
+        margin: 25px 50px;
+        /* width: 575px; */
+    }
+}
+
+@media only screen and (max-width: 918px) {
+    .courseSection-topics-name {
+        font-size: 10px;
+    }
+
+    .topic-head {
+        font-size: 10px;
+    }
+
+
+    .coursesSection-details {
+
+        margin: 25px 40px;
+        /* width: 575px; */
+    }
+}
+
+@media only screen and (max-width: 858px) {
+    @media only screen and (max-width: 918px) {
+        .courseSection-topics-name {
+            font-size: 10px;
+        }
+
+        .topic-head {
+            font-size: 10px;
+        }
+
+
+        .coursesSection-details {
+            margin-left: 50px;
+            margin: 25px 40px 50px;
+            /* width: 575px; */
+        }
+    }
 }

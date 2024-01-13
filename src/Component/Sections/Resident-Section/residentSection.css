@@ -80,3 +80,123 @@
     width: 680px;
     height: 460px;
 }
+
+@media only screen and (max-width: 1508px) {
+    .Resident-section-heading h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .Resident-section-left-title h1 {
+        font-size: 32px;
+        font-weight: 300;
+        margin-top: 15px;
+    }
+
+    .Resident-section-right img {
+        border-radius: 20px;
+        width: 480px;
+        height: 260px;
+    }
+
+    .Resident-section-left-content p {
+        line-height: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        color: rgb(212, 210, 210);
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1308px) {
+    .Resident-section-heading h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .Resident-section-left-title h1 {
+        font-size: 27px;
+        font-weight: 300;
+        margin-top: 15px;
+    }
+
+    .Resident-section-right img {
+        border-radius: 20px;
+        width: 480px;
+        height: 260px;
+    }
+
+    .Resident-section-left-content p {
+        line-height: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        color: rgb(212, 210, 210);
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1108px) {
+    .Resident-section-heading h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .Resident-section-left-title h1 {
+        font-size: 37px;
+        font-weight: 300;
+        margin-top: 15px;
+    }
+
+    .Resident-section-right img {
+        border-radius: 20px;
+        width: 580px;
+        height: 360px;
+    }
+
+    .Resident-section-left-content p {
+        line-height: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        color: rgb(212, 210, 210);
+        font-size: 18px;
+    }
+
+    .Resident-section-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media only screen and (max-width: 808px) {
+    .Resident-section-heading h1 {
+        font-size: 37px;
+        font-weight: bold;
+    }
+
+    .Resident-section-left-title h1 {
+        font-size: 27px;
+        font-weight: 300;
+        margin-top: 15px;
+    }
+
+    .Resident-section-right img {
+        border-radius: 20px;
+        width: 500px;
+        height: 300px;
+    }
+
+    .Resident-section-left-content p {
+        line-height: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        color: rgb(212, 210, 210);
+        font-size: 15px;
+    }
+
+    .Resident-section-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
