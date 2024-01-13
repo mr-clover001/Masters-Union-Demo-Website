@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Quicksand&family=Rubik+Maps&display=swap');
+
+.navbar {
+    font-family: 'Quicksand', sans-serif;
+    padding: 16px 47px;
+    background: linear-gradient(to right, rgba(6, 5, 5, 0.936), black);
+    border-bottom: 1px solid rgba(56, 55, 55, 0.559);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    cursor: pointer;
+}
+
+.logo-M img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.logo-text {
+    line-height: 20px;
+    margin-left: 3px;
+}
+
+#child-1 {
+    color: azure;
+    font-size: 25px !important;
+    font-weight: bold;
+}
+
+
+
+#child-2 {
+    color: azure;
+    font-size: 10px !important;
+    font-weight: bold;
+}
+
+.menu {
+    margin-top: 12px;
+    margin-left: 220px;
+}
+
+
+.menu-btn {
+    cursor: pointer;
+    color: rgb(234, 247, 247);
+    margin-left: 70px;
+    font-size: 17px;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+
+}
+
+.menu-btn::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: rgba(243, 160, 97, 0.685);
+    transition: width 0.3s ease;
+}
+
+.menu-btn:hover {
+    color: rgba(243, 160, 97, 0.685);
+}
+
+.menu-btn:hover::after {
+    width: 100%;
+}
+
+.btn span {
+    background-color: azure;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+    transition: all 0.8s ease;
+
+}
+
+.btn span:hover {
+    border: 3px solid rgba(243, 160, 97, 0.685);
+    background-color: rgba(0, 0, 0, 0.936);
+    color: rgba(243, 160, 97, 0.685);
+    transform: scale(1.1);
+
+}

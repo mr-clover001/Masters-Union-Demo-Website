@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Prompt:wght@600&family=Quicksand&family=Roboto:wght@400;500;700;900&family=Rubik+Maps&display=swap');
+
+.course-title {}
+
+.course-title span {
+    font-family: 'Roboto', sans-serif !important;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 700 !important;
+
+}
+
+.course-details {
+    display: flex;
+    margin-top: 15px;
+    border-top: 2px solid rgba(14, 14, 14, 0.08);
+}
+
+.course-details-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.details {
+    display: flex;
+    margin-top: 10px;
+    padding: 10px 6px;
+}
+
+.block {
+
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.deadline-duration {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.deadline {
+    display: flex;
+}
+
+.duration {
+    display: flex;
+}
+
+
+
+.Mode-taughtBy {
+    display: flex;
+    flex-direction: column;
+}
+
+.Mode {
+    display: flex;
+}
+
+.taughtBy {
+    display: flex;
+}
+
+.info {
+
+    margin-left: 8px;
+}
+
+.info-head {
+    font-size: 17px;
+}
+
+.info-body {
+    font-size: 15px;
+    color: rgba(27, 26, 26, 0.514);
+    margin-bottom: 40px;
+}
+
+.icon {
+    border: 2px solid rgba(27, 26, 26, 0.174);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    color: rgba(27, 26, 26, 0.89);
+    padding: 5px 0;
+}
+
+.pointer-icon {
+    color: rgba(27, 26, 26, 0.164);
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+.course-details-points {
+    line-height: 32px;
+    font-size: 15px
+}
+
+.Course-detail-img {
+    margin: 21px 70px;
+}
+
+.Course-detail-img img {
+    width: 260px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.Apply-button {
+    width: 100%;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateX(120px);
+    animation: slideInRight 2s forwards;
+    margin-top: 17px;
+
+}
+
+.Apply-button span {
+    width: 100%;
+    background-color: rgba(243, 160, 97, 0.685);
+    padding: 6px 147px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 19px;
+    color: White !important;
+    transition: all 0.5s ease;
+
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(80px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.Apply-button span:hover {
+
+    background-color: rgba(214, 126, 58, 0.842);
+    color: white !important;
+    transform: translateY(2.5);
+
+}
