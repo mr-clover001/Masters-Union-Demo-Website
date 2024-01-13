@@ -17,6 +17,10 @@
     cursor: pointer;
 }
 
+.navbar-toggler span {
+    color: white !important;
+}
+
 .logo-M img {
     width: 40px;
     height: 40px;
@@ -57,6 +61,45 @@
     position: relative;
     transition: color 0.3s ease, border-bottom 0.3s ease;
 
+}
+
+@media only screen and (max-width: 1508px) {
+    .menu {
+        margin-top: 12px;
+        margin-left: 140px;
+    }
+
+    .menu-btn {
+        margin-left: 30px;
+        font-size: 16px;
+
+    }
+}
+
+@media only screen and (max-width: 1308px) {
+    .menu {
+        margin-top: 12px;
+        margin-left: 110px;
+    }
+
+    .menu-btn {
+        margin-left: 30px;
+        font-size: 16px;
+
+    }
+}
+
+@media only screen and (max-width: 1108px) {
+    .menu {
+        margin-top: 12px;
+        margin-left: 80px;
+    }
+
+    .menu-btn {
+        margin-left: 30px;
+        font-size: 13px;
+
+    }
 }
 
 .menu-btn::after {

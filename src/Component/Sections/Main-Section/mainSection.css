@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Quicksand&family=Rubik+Maps&display=swap');
 
+/* Base styles */
 .mainSection {
     background-image: url("/src/Component/Assets/Wallpaper.jpg");
     background-size: cover;
@@ -9,17 +10,14 @@
     display: flex;
     flex-direction: column;
     font-family: 'Kanit', sans-serif;
-
-
 }
 
+/* Top section styles */
 .mainSection-top {
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
 }
-
-
 
 .mainSection-moto h1 {
     font-family: 'Rubik Maps', system-ui;
@@ -33,6 +31,105 @@
     opacity: 0;
     transform: translateY(1em);
 }
+
+/* Responsive styles */
+
+@media only screen and (max-width: 1279px) {
+    .mainSection-moto h1 {
+        font-size: 44px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1179px) {
+    .mainSection-moto h1 {
+        font-size: 40px;
+    }
+
+    .Btn a {
+        padding: 7px 22px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1051px) {
+    .mainSection-moto h1 {
+        font-size: 35px;
+    }
+
+    .text p {
+        font-size: 13px;
+    }
+
+    .Btn a {
+        padding: 7px 22px;
+        font-size: 12px;
+    }
+
+    .Img img {
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 908px) {
+    .mainSection-top {
+        margin-top: 200px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .mainSection-moto h1 {
+        font-size: 43px;
+    }
+
+    .text p {
+        margin-top: 23px;
+        font-size: 16px;
+    }
+
+    .Img img {
+        margin-left: -50px;
+    }
+
+}
+
+@media only screen and (max-width: 808px) {
+    .mainSection-moto h1 {
+        font-size: 41px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .Img img {
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (max-width: 608px) {
+    .mainSection-moto h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .mainSection-moto h1 {
+        font-size: 20px;
+    }
+}
+
+/* Rest of your CSS styles for other elements remain unchanged */
+
+
+
+
+/* ------------------------- */
 
 .animate-text span.show {
     animation: fadeInUp 0.5s forwards;

@@ -1,6 +1,8 @@
 import React from 'react';
 import LogoImg from "../Assets/MLogo.png";
 import './navbar.css';
+import AppsOutlinedIcon from '@material-ui/icons/AppsOutlined';
+
 
 const Navbar = () => {
 
@@ -39,7 +41,7 @@ const Navbar = () => {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span className="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"><AppsOutlinedIcon /></span>
                 </button>
                 <div className="collapse navbar-collapse menu" id="navbarSupportedContent">
 
@@ -55,7 +57,7 @@ const Navbar = () => {
 
                 </div>
 
-                <div className='btn'>
+                <div className='btn collapse navbar-collapse  menu' id="navbarSupportedContent">
                     <span>Strategic Marketing & AI</span>
                 </div>
             </div>
