@@ -60,3 +60,26 @@
 .social-media:hover {
     color: rgba(243, 160, 97, 0.685);
 }
+
+
+
+@media only screen and (max-width: 1268px) {
+
+    .address {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1168px) {
+
+    .address {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+
+    .address {
+        font-size: 10px;
+    }
+}

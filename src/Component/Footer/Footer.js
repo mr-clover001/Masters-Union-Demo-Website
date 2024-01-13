@@ -22,7 +22,7 @@ function Footer() {
                                 <LocationOnIcon />
                             </IconButton>
                         </div>
-                        <div>
+                        <div className='address'>
                             <p>DLF Cyberpark, Phase II, Udyog Vihar, Sector 20</p>
                             <p>Gurugram, Haryana, 122008</p>
                         </div>

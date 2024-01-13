@@ -140,3 +140,158 @@
     transform: scale(1.1);
 
 }
+
+@media only screen and (max-width: 1456px) {
+    .News-card-Image img {
+        border-radius: 14px;
+        width: 400px;
+        height: 380px;
+
+    }
+
+    .News-card-Image img:hover {
+        border-radius: 14px;
+        width: 420px;
+        height: 390px;
+
+    }
+}
+
+
+
+@media only screen and (max-width: 1486px) {
+    .News-card-Image img {
+        width: 400px;
+        height: 380px;
+
+    }
+
+    .News-card-Image img:hover {
+        border-radius: 14px;
+        width: 400px;
+        height: 370px;
+
+    }
+}
+
+@media only screen and (max-width: 1436px) {
+    .News-card-Image img {
+        width: 360px;
+        height: 300px;
+
+    }
+
+    .News-card-Image img:hover {
+        border-radius: 14px;
+        width: 380px;
+        height: 320px;
+
+    }
+}
+
+
+
+@media only screen and (max-width: 1308px) {
+    .News-card-Image img {
+        width: 320px;
+        height: 300px;
+
+    }
+
+    .News-card-Image img:hover {
+        border-radius: 14px;
+        width: 380px;
+        height: 320px;
+
+    }
+
+    .News-card-community-heading h1 {
+        font-size: 24px !important;
+        line-height: 40px;
+        word-spacing: 2px;
+    }
+
+    .community-btn span {
+        font-size: 13px;
+
+
+    }
+}
+
+@media only screen and (max-width: 1193px) {
+    .News-card-Image img {
+        width: 280px;
+        height: 260px;
+
+    }
+
+    .News-card-Image img:hover {
+        border-radius: 14px;
+        width: 300px;
+        height: 280px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 1065px) {
+    .News-card-Image img {
+        width: 250px;
+        height: 230px;
+
+    }
+
+    .News-card-Image img:hover {
+        border-radius: 14px;
+        width: 270px;
+        height: 250px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 968px) {
+    .News-card-Image img {
+        width: 220px;
+        height: 200px;
+
+    }
+
+    .News-card-Image img:hover {
+        border-radius: 14px;
+        width: 270px;
+        height: 250px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 892px) {
+    .News-card-Image img {
+        width: 200px;
+        height: 180px;
+
+    }
+
+    .News-card-Image img:hover {
+        border-radius: 14px;
+        width: 220px;
+        height: 200px;
+
+    }
+
+    .News-card-community-heading h1 {
+        font-size: 20px !important;
+        line-height: 30px;
+        word-spacing: 2px;
+    }
+
+    .community-btn span {
+        font-size: 10px;
+
+
+    }
+}
